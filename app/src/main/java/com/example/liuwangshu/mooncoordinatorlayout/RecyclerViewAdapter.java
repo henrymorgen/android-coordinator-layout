@@ -1,6 +1,7 @@
 package com.example.liuwangshu.mooncoordinatorlayout;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,7 +28,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent mIntent =new Intent(mContext,CollapsingToolbarActivity.class);
+                mContext.startActivity(mIntent);
             }
         });
     }
