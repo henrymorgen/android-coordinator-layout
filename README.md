@@ -3,10 +3,12 @@
 
 ### **CoordinatorLayout实现Toolbar隐藏效果**
  效果如下图所示：
+
 ![这里写图片描述](http://img.blog.csdn.net/20160113143122272)
 
 ### **CoordinatorLayout+CollapsingToolbarLayout实现Toolbar折叠效果**
  效果如下图所示：
+ 
 ![这里写图片描述](http://img.blog.csdn.net/20160113163100232)
 
 
